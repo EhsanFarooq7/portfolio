@@ -43,7 +43,7 @@ export default function Hero() {
 
                 {/* Tagline */}
                 <p className="hero-tagline animate-fadeInUp delay-200">
-                    <span className="hero-accent">//</span> Full Stack Developer &amp; AI Enthusiast
+                    <span className="hero-accent"></span> Full Stack Developer &amp; AI Enthusiast
                 </p>
 
                 {/* Divider line */}

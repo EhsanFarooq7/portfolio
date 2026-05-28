@@ -119,7 +119,7 @@ export default function Upwork() {
                             Top Rated Freelancer
                         </div>
                         <div style={{ fontSize: "0.78rem", color: "var(--muted)", marginTop: "0.3rem" }}>
-                            Upwork Certified · Recently Achieved
+                            Upwork Certified 
                         </div>
                     </div>
                 </div>

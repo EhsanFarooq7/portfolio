@@ -14,7 +14,7 @@ export default function Footer() {
                 gap: "0.5rem",
             }}
         >
-            <div>© 2025 Muhammad Ehsan Farooq</div>
+            <div>© 2026 Muhammad Ehsan Farooq</div>
             <div style={{ color: "var(--cyan)" }}>Built with Next.js · Designed with precision.</div>
         </footer>
     );

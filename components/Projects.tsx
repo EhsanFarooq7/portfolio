@@ -11,32 +11,42 @@ const projects = [
     },
     {
         num: "PROJECT_02",
+        title: "Voicescape — AI-Powered Executive Research Platform",
+        desc: "Intelligent research automation platform that ingests PDF case studies to identify target executives (CFO, CTO, CEO). Extracts metadata via LLM, leverages Cognism API for contact discovery, uses SERP API to surface authored content across social media and blogs, applies custom AI scoring rubrics, and seamlessly exports researched leads into HubSpot campaigns with auto-generated email sequences.",
+        tags: ["Next.js", "TypeScript", "LLM", "Cognism API", "SERP API", "HubSpot", "PDF Processing", "AI/ML"],
+        span: 1,
+    },
+    {
+        num: "PROJECT_03 — GHL AUTOMATION",
+        title: "Automatic Lead Scoring System",
+        desc: "Sophisticated GoHighLevel CRM automation that scores leads in real-time, routes them through custom sales funnels, triggers personalized email nurturing sequences, and executes intelligent follow-up workflows — turning cold leads into warm conversations on autopilot.",
+        tags: ["GoHighLevel", "Sales Funnel", "Email Nurturing", "Automation", "CRM", "Lead Scoring"],
+        span: 1,
+    },
+
+    {
+        num: "PROJECT_04",
         title: "Travel Booking Platform",
         desc: "Full-featured travel booking app with Next.js — SSR for SEO, real-time availability checks, dynamic pricing, and a conversion-optimized booking flow with smooth UX.",
         tags: ["Next.js", "SSR", "React", "REST API"],
         span: 1,
     },
     {
-        num: "PROJECT_03",
+        num: "PROJECT_05",
         title: "Business Website",
         desc: "High-performance corporate website with Next.js — static generation, fully SEO-optimized, responsive design, and integrated CMS for effortless content management.",
         tags: ["Next.js", "CMS", "SEO", "Tailwind"],
         span: 1,
     },
     {
-        num: "PROJECT_04",
+        num: "PROJECT_06",
         title: "E-Commerce Platform",
         desc: "End-to-end MERN stack e-commerce — product catalog, cart, secure checkout, payment gateway integration, order management, and a full admin dashboard.",
         tags: ["MongoDB", "Express", "React", "Node.js"],
         span: 1,
     },
-    {
-        num: "PROJECT_05 — GHL AUTOMATION",
-        title: "Automatic Lead Scoring System",
-        desc: "Sophisticated GoHighLevel CRM automation that scores leads in real-time, routes them through custom sales funnels, triggers personalized email nurturing sequences, and executes intelligent follow-up workflows — turning cold leads into warm conversations on autopilot.",
-        tags: ["GoHighLevel", "Sales Funnel", "Email Nurturing", "Automation", "CRM", "Lead Scoring"],
-        span: 2,
-    },
+    
+    
 ];
 
 function ProjectCard({ project, index }: { project: (typeof projects)[0]; index: number }) {
